@@ -57,10 +57,10 @@ export default function Auth() {
       <div className="relative z-10 w-full max-w-md animate-fade-in-up">
         {/* Header */}
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 to-rose-500 mb-4 shadow-lg shadow-blue-500/20">
+          <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-600 to-rose-600 mb-4 shadow-lg shadow-blue-600/20">
             <ShieldAlert size={26} className="text-white" />
           </div>
-          <h1 className="font-display text-3xl font-800 text-white tracking-tight mb-1">
+          <h1 className="font-display text-3xl font-800 text-white tracking-tight mb-0">
             FAILSAFE
           </h1>
           <p className="text-[var(--text-muted)] text-sm font-mono uppercase tracking-widest">
@@ -128,7 +128,7 @@ export default function Auth() {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="faculty@university.edu"
-                    className="w-full bg-white/4 border border-white/8 rounded-lg pl-10 pr-4 py-2.5 text-sm text-white placeholder-[var(--text-muted)] focus:outline-none focus:border-blue-500/50 focus:bg-blue-500/5 transition-all duration-200"
+                    className="w-full bg-white/4 border border-white/8 rounded-lg pl-10 pr-4 py-2.5 text-sm text-black placeholder-[var(--text-muted)] focus:outline-none focus:border-blue-500/50 focus:bg-blue-500/5 transition-all duration-200"
                   />
                 </div>
               </div>
@@ -145,12 +145,12 @@ export default function Auth() {
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     placeholder="••••••••"
-                    className="w-full bg-white/4 border border-white/8 rounded-lg pl-10 pr-11 py-2.5 text-sm text-white placeholder-[var(--text-muted)] focus:outline-none focus:border-blue-500/50 focus:bg-blue-500/5 transition-all duration-200"
+                    className="w-full bg-white/4 border border-white/8 rounded-lg pl-10 pr-11 py-2.5 text-sm text-black placeholder-[var(--text-muted)] focus:outline-none focus:border-blue-500/50 focus:bg-blue-500/5 transition-all duration-200"
                   />
                   <button
                     type="button"
                     onClick={() => setShowPass(!showPass)}
-                    className="absolute right-3.5 top-1/2 -translate-y-1/2 text-[var(--text-muted)] hover:text-white transition-colors"
+                    className="absolute right-3.5 top-1/2 -translate-y-1/2 text-[var(--text-muted)] hover:text-black transition-colors"
                   >
                     {showPass ? <EyeOff size={15} /> : <Eye size={15} />}
                   </button>
