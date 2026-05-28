@@ -8,7 +8,7 @@ import models
 from core.security import get_password_hash, verify_password, create_access_token
 from services.ml_service import process_student_csv
 from pydantic import BaseModel
-
+print("🚀 Starting FastAPI app...")
 # Add this right below your imports
 class UserCreate(BaseModel):
     email: str
