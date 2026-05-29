@@ -7,4 +7,4 @@ scikit-learn
 python-multipart
 passlib
 python-jose
-bcrypt==4.2.0bcrypt==4.2.0
+bcrypt==4.2.0
