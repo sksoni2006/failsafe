@@ -11,3 +11,4 @@ scikit-learn
 python-multipart
 passlib
 python-jose
+xgboost
