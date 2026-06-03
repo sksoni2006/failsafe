@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'failsafe-production-21b0.up.railway.app';
+const BASE_URL = 'https://failsafe-production-21b0.up.railway.app';
 
 const api = axios.create({
   baseURL: BASE_URL,
