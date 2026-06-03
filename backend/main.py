@@ -19,10 +19,10 @@ app = FastAPI(title="FAILSAFE API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://failsafeproj.netlify.app/"], 
+    allow_origins=["https://failsafer.netlify.app"], 
     allow_credentials=True,
-    allow_methods=["https://failsafeproj.netlify.app/"],
-    allow_headers=["https://failsafeproj.netlify.app/"],
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 
